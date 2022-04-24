@@ -329,7 +329,7 @@ function message()
       )
       setTimeout(function(){
 
-  window.open("../routing/freitagsgebet.html",'_blank')
+  window.open("./routing/freitagsgebet.html",'_blank')
       
 
 
@@ -349,7 +349,7 @@ function message()
       )
       setTimeout(function(){
 
-  window.open("../routing/freitagsgebet14_45_uhr.html",'_blank')
+  window.open("./routing/freitagsgebet14_45_uhr.html",'_blank')
       
 
 
