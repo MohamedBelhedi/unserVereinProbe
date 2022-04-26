@@ -312,7 +312,7 @@ function message()
 {
   Swal.fire({
     title: 'Für Welches Freitagsgebet möchtest du dich anmelden'+"  </br>"+"أي صلاة جمعة تود التسجيل فيها",
-    text: "Mit dem Klicken auf einer der Button dem erklären Sie sich damit einverstanden,das wir dein Daten aufnehmen und diese nur Intern und nicht mit Dritte verarbeiten dürfen, wenn du dies nicht wünschst dann bitte wir dich die Seite zu Verlassen oder aktuellsieren",
+    text: "Mit dem Klicken auf einer der Button dem erklärst du dich damit einverstanden,dass wir dein Daten aufnehmen und diese nur Intern und nicht mit Dritte verarbeiten bzw weiterleite dürfen, wenn du dies nicht wünschst dann bitte wir dich die Seite zu Verlassen oder aktuellisieren",
     icon: 'warning',
     showCancelButton: true,
     allowOutsideClick:false,
@@ -408,8 +408,7 @@ function spend(){
   return Swal.fire({
       title: 'Jazak allahu Khayran für deine Spende,'+"</br>",
       text:"Mit dem klick auf dem PayPal Button kannst du deine Spende über PayPal entrichten oder über "
-      +" unten genannten IBAN du kannst frei nach belieben wählen"+"zur Kenntnisnahme mit dem Klicken auf dem Button erklärst du gemäß unseren"+"Datenschutzerklären,das wir dein Daten erheben dürfen die nur bei uns verweihlen und keine Dritte weiter gegeben werden"+
-      '</br>'+"IBAN:"+" "+"DEXXXXXXXXXXXXXXX",
+      +" unten genannten IBAN du kannst frei nach belieben wählen"+"zur Kenntnisnahme mit dem Klicken auf dem Button erklärst du gemäß unseren"+"Datenschutzerklären,das wir dein Daten erheben dürfen die nur bei uns verweihlen und keine Dritte weiter gegeben werden"+"IBAN:"+" "+"DEXXXXXXXXXXXXXXX",
       icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
@@ -470,8 +469,9 @@ function buttonAction(){
 let whatsapp=document.getElementById("whatsapp")
 const text="Salamu Alaikum wr br ich möchte paar Infos von euch "
 whatsapp.addEventListener("click",()=>{
+  //sweetalert hinzufügen
 
-  window.open("https://api.whatsapp.com/send?phone=+4917642933195&`${text}`")
+  window.open("https://api.whatsapp.com/send?phone=+491233456677&`${text}`")
 
 })
 
