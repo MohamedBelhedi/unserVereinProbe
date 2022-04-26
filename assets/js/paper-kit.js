@@ -471,7 +471,7 @@ let whatsapp=document.getElementById("whatsapp")
 const text="Salamu Alaikum wr br ich möchte paar Infos von euch "
 whatsapp.addEventListener("click",()=>{
 
-  window.open("https://api.whatsapp.com/send?phone=+4917642933195&{text}")
+  window.open("https://api.whatsapp.com/send?phone=+4917642933195&`${text}`")
 
 })
 
